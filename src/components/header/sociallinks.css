@@ -10,4 +10,5 @@
 .header-social-li {
     display: inline-block;
     width: 2em;
+    padding-left: 1em;
 }

@@ -1,28 +1,24 @@
 import * as React from "react";
+import facebook from "./assets/facebook.webp";
+import instagram from "./assets/instagram.webp";
 import "./sociallinks.css";
-import { NavLink } from "react-router-dom";
 
 export class SocialLinks extends React.Component<object, object> {
   render() {
-    const facebook = require("./assets/facebook.webp");
-    const instagram = require("./assets/instagram.webp");
-
     return (
       <div className="header-social">
         <ul className="header-social-ul">
           <li className="header-social-li">
             <a href="https://instagram.com/tabbywellsphotography">
-              IN
-              {/* <Image src={instagram} /> */}
+              <img src={instagram} alt="instagram" />
             </a>
           </li>
           <li className="header-social-li">
             <a href="http://www.facebook.com/tabbywellsphotography">
-              FB
-              {/* <Image src={facebook} /> */}
+              <img src={facebook} alt="facebook" />
             </a>
           </li>
-          <li><NavLink className="nav-link" to="/login" href="/login">Admin Login</NavLink></li>
+          {/* <li><NavLink className="nav-link" to="/login" href="/login">Admin Login</NavLink></li> */}
         </ul>
       </div>
     );

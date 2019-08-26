@@ -1,5 +1,15 @@
 {
-  "name": "my-app",
+  "name": "wells-photography",
+  "author": "Gruckion",
+  "description": "Photography by the Wells",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruckion/wellsPhotography.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gruckion/wellsphotography/issues"
+  },
+  "homepage": "https://gruckion.github.io/WellsPhotography/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +21,9 @@
     "@types/react-router-dom": "^4.3.1",
     "@types/recompose": "^0.30.5",
     "axios": "^0.18.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
+    "react-bingmaps": "^3.6.1",
     "react-dom": "^16.8.6",
     "react-google-maps": "^9.4.5",
     "react-grid-gallery": "^0.5.4",
@@ -24,7 +36,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { NavLink } from "react-router-dom";
 import "./about.css";
-// import { Map } from "../map/Map";
+// const ReactBingmaps = require("react-bingmaps");
 
 export const About = () => {
   return (
@@ -18,15 +18,17 @@ export const About = () => {
       </p>
 
       <p className="about-paragraph">
-        Please feel free to{" "}
+        Please feel free to
         <NavLink className="about-link" to="/contact" href="/contact">
-          {" "}
           contact
-        </NavLink>{" "}
+        </NavLink>
         us if you have any questions, we hope to hear from you soon!
       </p>
 
-      {/* <Map /> */}
+      {/* <ReactBingmaps
+        bingmapKey="Am8FuQ0Cb89c4sYQJydE0IG4TfoiDY_SuzbvXXwL5lEunJDLIasJaftbJsdQKVix"
+        center={[51.3618195, 0.5295269000000644]}
+      /> */}
     </div>
   );
 };
