@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.48d1d9d1.chunk.css",
-  "main.js": "/static/js/main.75caaa43.chunk.js",
-  "main.js.map": "/static/js/main.75caaa43.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.3b59c1df.chunk.js": "/static/js/2.3b59c1df.chunk.js",
-  "static/js/2.3b59c1df.chunk.js.map": "/static/js/2.3b59c1df.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.a54d0dd8a1bcb548030a17cb40fe9b63.js": "/precache-manifest.a54d0dd8a1bcb548030a17cb40fe9b63.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.48d1d9d1.chunk.css.map": "/static/css/main.48d1d9d1.chunk.css.map",
-  "static/media/facebook.webp": "/static/media/facebook.eac533ae.webp",
-  "static/media/instagram.webp": "/static/media/instagram.207e6cd2.webp"
+  "main.css": "/WellsPhotography/static/css/main.48d1d9d1.chunk.css",
+  "main.js": "/WellsPhotography/static/js/main.fb9ce486.chunk.js",
+  "main.js.map": "/WellsPhotography/static/js/main.fb9ce486.chunk.js.map",
+  "runtime~main.js": "/WellsPhotography/static/js/runtime~main.68ce3c64.js",
+  "runtime~main.js.map": "/WellsPhotography/static/js/runtime~main.68ce3c64.js.map",
+  "static/js/2.282153f2.chunk.js": "/WellsPhotography/static/js/2.282153f2.chunk.js",
+  "static/js/2.282153f2.chunk.js.map": "/WellsPhotography/static/js/2.282153f2.chunk.js.map",
+  "index.html": "/WellsPhotography/index.html",
+  "precache-manifest.91e9902153f6011f202a9e97dc50895a.js": "/WellsPhotography/precache-manifest.91e9902153f6011f202a9e97dc50895a.js",
+  "service-worker.js": "/WellsPhotography/service-worker.js",
+  "static/css/main.48d1d9d1.chunk.css.map": "/WellsPhotography/static/css/main.48d1d9d1.chunk.css.map",
+  "static/media/facebook.webp": "/WellsPhotography/static/media/facebook.eac533ae.webp",
+  "static/media/instagram.webp": "/WellsPhotography/static/media/instagram.207e6cd2.webp"
 }
