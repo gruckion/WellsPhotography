@@ -1,0 +1,11 @@
+.services-container {
+    font: normal normal normal 17px/1.4em "brandon-grot-w01-light", sans-serif;
+}
+
+.servies-title {
+    font-weight: bold;
+}
+
+.services-body {
+    color: #605e5e;
+}

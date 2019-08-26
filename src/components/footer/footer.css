@@ -1,0 +1,31 @@
+.footer-container {
+    margin: 4em;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.footer-paragraph {
+    font-family: Lato;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 0.8em;
+    color: #605e5e;
+}
+
+@mixin setLinkSelectorStyle {
+    &:hover,
+    &:link,
+    &:active,
+    &:visited {
+        @content;
+    }
+}
+
+.footer-link {
+    color: #605e5e;
+    @include setLinkSelectorStyle {
+        color: #797979;
+    }
+}

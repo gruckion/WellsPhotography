@@ -1,0 +1,21 @@
+.nav-container {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+@mixin setLinkSelectorStyle {
+    &:hover,
+    &:link,
+    &:active,
+    &:visited {
+        @content;
+    }
+}
+
+.nav-link {
+    padding: 1.5em;
+    color: #605e5e;
+    @include setLinkSelectorStyle {
+        color: #797979;
+    }
+}
