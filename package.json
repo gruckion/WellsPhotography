@@ -20,7 +20,7 @@
     "@types/react-dom": "16.8.3",
     "@types/react-router-dom": "^4.3.1",
     "@types/recompose": "^0.30.5",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-bingmaps": "^3.6.1",
